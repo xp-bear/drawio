@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T13:23:28.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" version="17.4.6" etag="EvkQ0SNLiCAoGeUm9qYQ" type="github"><diagram id="opWEdN1bHY4_PCekgSRr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-10T13:29:36.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="vF9IzC1vB76ix_Vz7KKY" version="17.4.6" type="github">
+  <diagram id="opWEdN1bHY4_PCekgSRr" name="Page-1">
+    <mxGraphModel dx="985" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;num=101&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-2" value="num+=1&lt;br&gt;1.获取num值&lt;br&gt;2.把获取到的num值+1 num+1&lt;br&gt;3.把第二步的值存储到num中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="250" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-3" value="&lt;h1&gt;子线程1 num 101&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="65" y="160" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-4" value="num+=1&lt;br&gt;1.获取num值&lt;br&gt;2.把获取到的num值+1 num+1&lt;br&gt;3.把第二步的值存储到num中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="240" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-5" value="&lt;h1&gt;子线程2&lt;/h1&gt;&lt;div&gt;num 105&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="615" y="160" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-6" value="cpu" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="EZYO-_6EeVX2ynE9U77a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZYO-_6EeVX2ynE9U77a-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.924;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="EZYO-_6EeVX2ynE9U77a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="290" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
