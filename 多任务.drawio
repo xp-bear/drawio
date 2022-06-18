@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T07:07:59.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.0.1" etag="MeA3qbIor58c91sKB7Ez" type="github"><diagram id="iMI2ej3poaa-jU5f6yJ9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-18T08:03:59.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="hAcrW-9XSBqX4JJ-WxMa" version="20.0.1" type="github">
+  <diagram id="iMI2ej3poaa-jU5f6yJ9" name="Page-1">
+    <mxGraphModel dx="985" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-1" value="2核CPU" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-2" value="核心" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-3" value="核心" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-4" value="QQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-5" value="微信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ASU7W0zZZqwKRMPDZ5jo-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="350" as="sourcePoint" />
+            <mxPoint x="290" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.5799999999999" y="350" as="sourcePoint" />
+            <mxPoint x="519.5799999999999" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-8" value="支付宝" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-9" value="QQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="790" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-10" value="微信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-11" value="支付宝" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="790" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-12" value="核心" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5799999999999" y="680" as="sourcePoint" />
+            <mxPoint x="389.5799999999999" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASU7W0zZZqwKRMPDZ5jo-14" value="时间片轮转法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="680" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
