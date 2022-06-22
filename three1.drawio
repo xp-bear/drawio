@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T13:20:35.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.0.2" etag="bxLjUB4HWTQGtxaKizSf" type="github"><diagram id="rfHESNXNJCe3Hg5CzHo1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-22T13:34:33.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="2KHDmLj_Qn7yA2578wCE" version="20.0.2" type="github">
+  <diagram id="rfHESNXNJCe3Hg5CzHo1" name="Page-1">
+    <mxGraphModel dx="815" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-1" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-2" value="服务器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="sourcePoint" />
+            <mxPoint x="310" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-4" value="SYN报文: 你好我想建立链接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="250" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="310" as="sourcePoint" />
+            <mxPoint x="670" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-6" value="SYN报文,ack报文 : 可以建立链接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="290" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.024;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-8" value="ack报文 : 好的,那我们建立链接了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="320" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-9" value="因为网络传输有延迟,如果服务器传输过程发生了丢包,客户端会因为超时而关闭,然而服务器并不知道,丢包的客户端没有接受到数据,服务器的端口就一直开着,造成了额外的开销.&lt;br&gt;确保 信息传输的可靠性" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-10" value="三次握手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-11" value="四次挥手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-12" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-13" value="服务器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="610" as="sourcePoint" />
+            <mxPoint x="300" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-15" value="FIN包: 通话即将结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="585" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.032;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="635" as="sourcePoint" />
+            <mxPoint x="690" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-17" value="ack包: 我知道了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="615" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="660" as="sourcePoint" />
+            <mxPoint x="260" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-19" value="FIN包 巴拉巴拉说了一堆,我说完了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="635" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rTmbVFQo7ttQR5mvv_xW-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="675" as="sourcePoint" />
+            <mxPoint x="300" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-23" value="ack包: 我知道了,别啰嗦了.通话结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="670" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rTmbVFQo7ttQR5mvv_xW-24" value="因为数据传输是一个耗时的操作&lt;br&gt;为了确保数据的完整性,等待数据传输完成,才断开链接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="770" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
