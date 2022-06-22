@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T13:13:48.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.0.2" etag="Stz-bH-ijj8DmkaNZnRc" type="github"><diagram id="Q80-rdAngGwsNh93Q160">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-22T13:18:58.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="_tiyxOJzP8X67xB-zpCZ" version="20.0.2" type="github">
+  <diagram id="Q80-rdAngGwsNh93Q160" name="Page-1">
+    <mxGraphModel dx="815" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-2" value="http://www.baidu.com" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-3" value="hosts(路由映射表)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-6" value="根服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.784;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-8" value="域服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-10" value="子域名服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.148;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.573;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.622;exitY=1.072;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xRG0a7IWp6r8zbYgrIAW-3" target="xRG0a7IWp6r8zbYgrIAW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="340" as="sourcePoint" />
+            <mxPoint x="464" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-13" value="DNS解析过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.01;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="230" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.409;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="140" as="sourcePoint" />
+            <mxPoint x="439" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRG0a7IWp6r8zbYgrIAW-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.024;entryY=0.336;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xRG0a7IWp6r8zbYgrIAW-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="210" as="sourcePoint" />
+            <mxPoint x="660" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
