@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T12:56:28.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="5wggsKQcrC8qhdJvCUSc" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-09T13:24:09.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="b3loncy9zclqy1K4n-CX" version="20.0.4" type="github">
   <diagram id="6QtAqn_zn2BmajvTOSDd" name="Page-1">
     <mxGraphModel dx="985" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-8" value="url" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="390" y="540" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oYfWYS8ArgQJdPDi_rlv-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-16" value="请求对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="370" width="60" height="30" as="geometry" />
+          <mxGeometry x="480" y="370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oYfWYS8ArgQJdPDi_rlv-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-21" value="数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="480" y="410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-23" value="数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="432" y="540" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-24" value="数据的筛选: 链接, 直接保存的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="650" width="216" height="30" as="geometry" />
@@ -104,7 +104,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-26" value="解析结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="520" width="60" height="30" as="geometry" />
+          <mxGeometry x="320" y="550" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="oYfWYS8ArgQJdPDi_rlv-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -126,6 +126,12 @@
         </mxCell>
         <mxCell id="oYfWYS8ArgQJdPDi_rlv-35" value="&lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;1.引擎向spiders要url&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;2.引擎将要爬取的url给到调度器&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;3.调度器会将url生成请求对象,放入到指定的队列中去&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;4.从调度器里面取出来一个请求&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;5.引擎将请求交给下载器进行下载&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;6.下载器发送请求获取互联网的数据&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;7.下载器将返回的数据返回给引擎&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;8.引擎再将数据交给spiders&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;9.spiders对响应的数据做解析,得到请求链接和下载数据&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;10,如果得到的是请求链接,重复上述过程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;11.如果是下载数据,就交给管道进行下载&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="720" width="640" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oYfWYS8ArgQJdPDi_rlv-37" value="下载中间件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oYfWYS8ArgQJdPDi_rlv-38" value="爬虫中间件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="375" y="490" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
