@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T13:09:07.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="k7rIImJ4BzlhNe7h1xHs" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T13:11:00.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="Fe8WBCH7WrjBHIinVicJ" version="20.0.4" type="github">
   <diagram id="wBjJY2U3W4vtlyiBhT6Q" name="Page-1">
-    <mxGraphModel dx="815" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +132,24 @@
         </mxCell>
         <mxCell id="1cK8PrYuun0VS4U50Isx-37" value="做数据持久化存储:&lt;br&gt;mysql mongodb excel 文件..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1cK8PrYuun0VS4U50Isx-38" value="下载中间价" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1cK8PrYuun0VS4U50Isx-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.607;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1cK8PrYuun0VS4U50Isx-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="300" as="sourcePoint" />
+            <mxPoint x="620" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1cK8PrYuun0VS4U50Isx-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1cK8PrYuun0VS4U50Isx-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1cK8PrYuun0VS4U50Isx-43" value="爬虫中间件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
