@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T12:37:58.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="je5kEzpgJOyJ5PYDQCdD" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T12:52:12.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="k96iGgXrSGf9ZiEsn2u4" version="20.0.4" type="github">
   <diagram id="4OBv8b520wUhhBo_ixFG" name="Page-1">
     <mxGraphModel dx="815" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
           <mxGeometry x="95" y="1660" width="325" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S3b7wXd8zEwaGP69H8vY-62" value="黑客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1970" width="30" height="60" as="geometry" />
+          <mxGeometry x="400" y="1960" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S3b7wXd8zEwaGP69H8vY-63" value="string" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="1739" width="60" height="30" as="geometry" />
@@ -216,6 +216,54 @@
         </mxCell>
         <mxCell id="S3b7wXd8zEwaGP69H8vY-68" value="密文" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-69" value="中间人代理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-70" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="2150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-71" value="服务器" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-76" value="黑客服务器" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="2150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-77" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="272.5" y="2180" as="sourcePoint" />
+            <mxPoint x="430" y="2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="2180" as="sourcePoint" />
+            <mxPoint x="565" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-79" value="钓鱼网站" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="2210" as="sourcePoint" />
+            <mxPoint x="520" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="2215" as="sourcePoint" />
+            <mxPoint x="485" y="2165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-82" value="问题 : 如何确保服务器的真实性???" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2100" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-83" value="CA机构,保障服务器的真实身份" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="2320" width="197.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-84" value="CA证书" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="2350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
