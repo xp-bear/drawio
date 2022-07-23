@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T12:52:12.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="k96iGgXrSGf9ZiEsn2u4" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T12:57:29.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="oFB1_3fL7XmJQSzWfRiM" version="20.0.4" type="github">
   <diagram id="4OBv8b520wUhhBo_ixFG" name="Page-1">
     <mxGraphModel dx="815" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,6 +264,51 @@
         </mxCell>
         <mxCell id="S3b7wXd8zEwaGP69H8vY-84" value="CA证书" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="172.5" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-90" value="浏览器输入www.baidu.com." style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="3100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-91" value="DNS本地服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2910" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-92" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.466;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449" y="3100" as="sourcePoint" />
+            <mxPoint x="499" y="3050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-93" value="根服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="2770" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="2922" as="sourcePoint" />
+            <mxPoint x="440" y="2872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-95" value=".com域服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="251.25" y="2630" width="77.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.629;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="2910" as="sourcePoint" />
+            <mxPoint x="455" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-97" value="baidu.com域服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-98" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.07;entryY=0.942;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-97">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="2910" as="sourcePoint" />
+            <mxPoint x="470" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3b7wXd8zEwaGP69H8vY-99" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.705;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S3b7wXd8zEwaGP69H8vY-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="3000" as="sourcePoint" />
+            <mxPoint x="520" y="2950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
